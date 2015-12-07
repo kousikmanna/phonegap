@@ -1,0 +1,1 @@
+# This as phonegap application
