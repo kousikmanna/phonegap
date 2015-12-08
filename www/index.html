@@ -33,17 +33,62 @@
         <meta name="msapplication-tap-highlight" content="no">
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
         <link rel="stylesheet" type="text/css" href="lib/jquery-mobile/jquery.mobile-1.4.5.css">
+        <link rel="stylesheet" type="text/css" href="lib/bootstrap/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="lib/font-awesome/css/font-awesome.min.css">
         <link rel="stylesheet" type="text/css" href="css/index.css">
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+
         <title>Hello World</title>
     </head>
     <body>
-        <div class="app">
-            <h1>Apache Cordova</h1>
-            <div id="deviceready" class="blink">
-                <p class="event listening">Connecting to Device</p>
-                <p class="event received">Device is Ready</p>
+        
+        <div data-role="page" id="pageone">
+            <div data-role="header" class="header clearfix">
+               <div class="header-items text-left">
+                   <i class="fa fa-bars fa-lg" style="color:#fff;"></i>
+               </div>
+               <div class="header-items text-center">
+                   DashBoard
+               </div>
+               <div class="header-items text-right">
+                   Calendar
+               </div>
             </div>
-        </div>
+            <div class="custom-cal clearfix">
+                <div class="cal-item">
+                    <p class="cal-day">Sun</p>
+                    <p class="cal-day">22</p>
+                </div>
+                <div class="cal-item">
+                    <p class="cal-day">Mon</p>
+                    <p class="cal-day">23</p>
+                </div>
+                <div class="cal-item">
+                    <p class="cal-day">Tue</p>
+                    <p class="cal-day">24</p>
+                </div>
+                <div class="cal-item cal-active">
+                    <p class="cal-day">Wed</p>
+                    <p class="cal-day">25</p>
+                </div>
+                <div class="cal-item">
+                    <p class="cal-day">Thu</p>
+                    <p class="cal-day">26</p>
+                </div>
+                <div class="cal-item">
+                    <p class="cal-day">Fri</p>
+                    <p class="cal-day">27</p>
+                </div>
+                <div class="cal-item">
+                    <p class="cal-day">Sat</p>
+                    <p class="cal-day">28</p>
+                </div>
+            </div>
+            
+            <div class="add-icon">+</div>
+        </div> 
+
+
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="lib/jquery-min.js"></script>
         <script type="text/javascript" src="lib/jquery-mobile/jquery.mobile-1.4.5.js"></script>

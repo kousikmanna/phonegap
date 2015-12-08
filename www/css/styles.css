@@ -1,0 +1,39 @@
+.header {
+  padding: 20px;
+  background-color: #20283d;
+  color: #fff;
+}
+.header .header-items {
+  float: left;
+  width: 33%;
+  font-size: 18px;
+}
+.add-icon {
+  text-align: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 40px;
+  padding-top: 5px;
+  font-size: 30px;
+  background-color: #b2b2b2;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+.custom-cal {
+  padiing: 10px;
+  background-color: #b2b2b2;
+  color: #fff;
+}
+.custom-cal .cal-item {
+  float: left;
+  width: 14.2%;
+}
+.custom-cal .cal-item .cal-day {
+  padding: 5px 10px;
+  margin: 0;
+  text-align: center;
+}
+.cal-active {
+  background-color: #cecccc;
+}
